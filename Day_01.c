@@ -5,9 +5,6 @@
 /** Maximum number of attempts before a timeout.**/
 #define MAX_ATTEMPTS 3
 
-/**Time in seconds to wait before allowing more attempts after reaching the maximum**/
-#define TIMEOUT_SECONDS 10
-
 /**Function to open the door**/
 void doorOpening(void) {
     /**Define the correct door code**/
